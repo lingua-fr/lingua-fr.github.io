@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/** Typography **/
+
+h1, h2, h3, h4, h5, h6 {color:#80b000;}
+
+/** Header **/
+
+#home-page #header {background:url(../images/green/home_bg.jpg) repeat-x left top;}
+#sub-page #header {background:url(../images/green/sub_bg.jpg) repeat-x left top;}
+
+#logo {background:url(../images/green/logo.png) no-repeat;}
+
+.sf-menu li.selected, .sf-menu li:hover {background:url(../images/green/nav_left.png) no-repeat 0 0;}
+.sf-menu li.selected a, .sf-menu li a:hover {background:url(../images/green/nav_right.png) no-repeat center right;}
+
+#home-page #slider {background:url(../images/green/home_slider.jpg) no-repeat center top;}
+#sub-page #slider {background:url(../images/green/sub_slider.jpg) no-repeat center top;}
+
+/** Sidebar **/
+
+#sidebar .widget li a:hover {color:#80b000;}
+#sidebar .widget li.current a, #sidebar .widget li.current a:hover {font-weight:bold; color:#80b000;}
+
+/** Blog **/
+
+.entry h3 a {color:#80b000;}
+.entry h3 a:hover {color:#80b000;}
+.meta a {color:#80b000;}
+
+/** Comments **/
+
+#comments .commentlist a {color:#80b000;}
+
+/** Contact us Form **/
+
+#contact-warp p.label {color:#80b000;}
