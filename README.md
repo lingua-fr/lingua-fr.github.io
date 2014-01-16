@@ -1,2 +1,0 @@
-lingua-fr.github.io
-===================
