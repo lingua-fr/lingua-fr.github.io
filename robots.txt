@@ -1,0 +1,6 @@
+User-agent: * 
+Disallow: /css
+Disallow: /doc
+Disallow: /images
+Disallow: /js
+Host: lingua-fr.github.io
