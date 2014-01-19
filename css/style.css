@@ -178,9 +178,7 @@ padding-right:10px; padding-left:10px;}
 #latest-post .post {margin-bottom:25px; padding-bottom:10px; border-bottom:#b9b9b9 1px dotted;}
 #latest-post .post p {font-size:10px; line-height:18px;}
 
-#search-box-container {position:relative; float:right; margin:2px 0 0 0;}
-#search-box {width:200px; height:21px; font-family:"Lucida Sans Unicode", "Lucida Grande", Garuda, sans-serif; font-size:12px; padding:4px 0 0 4px; margin: 0 15px 0 0; border:#b0b0b0 1px solid; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;}
-#search-submit {background:url(../images/search.png) no-repeat top right; border:none; cursor:pointer; height:16px; width:16px;margin-top:5px; position:absolute; right:0px; top:0px;}
+#search-box-container {width:230px; height:21px;position:relative; float:right; margin:0 0 0 0;}
 
 #content #sidebar #contact-info img {float:none; -moz-border-radius: 5px; -webkit-border-radius:5px; border-radius:5px;padding:5px; border:#d0d0d0 1px solid; background:#ebebeb; margin:-5px 0 15px;}
 #content #sidebar #social-info img {background:transparent none repeat scroll 0 0; border:medium none; padding:0; margin-right:5px;}
