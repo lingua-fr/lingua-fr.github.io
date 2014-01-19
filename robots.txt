@@ -4,3 +4,4 @@ Disallow: /doc
 Disallow: /images
 Disallow: /js
 Host: lingua-fr.github.io
+Sitemap: http://lingua-fr.github.io/sitemap.xml
