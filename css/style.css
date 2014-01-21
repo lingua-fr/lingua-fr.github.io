@@ -152,17 +152,17 @@ padding-right:10px; padding-left:10px;}
 
 /** Sidebar **/
 
-#content #sidebar {width:250px; height:auto; float:right; overflow:hidden;}
+#content #sidebar {;width:250px; height:auto; float:right; overflow:hidden;}
 
 #sidebar .widget {padding:0; margin-bottom:50px;list-style-type: none;}
 #sidebar .widget ul {list-style-type: none;padding:0;}
 #sidebar .widget li {padding:0;height:30px; line-height:30px; border-bottom:#b9b9b9 1px dotted; background:none;}
 #sidebar .widget li:first-child {border-top:#b9b9b9 1px dotted;}
-#sidebar .widget li:hover {background:#f0f0f0; padding-left:10px;}
+#sidebar .widget li:hover {background:#f0f0f0;}
 #sidebar .widget li a {color:#545454; height:100%; width:100%; display:block;}
 #sidebar .widget li a:hover {color:#80b000;}
 #sidebar .widget h3 {margin-bottom:20px;}
-#sidebar .widget li.current {background:#f0f0f0; padding-left:10px;}
+#sidebar .widget li.current {background:#f0f0f0;}
 #sidebar .widget li.current a, #sidebar .widget li.current a:hover {font-weight:bold; color:#80b000;}
 
 #latest-post li.post {margin-bottom:25px; padding-bottom:10px; border-bottom:#b9b9b9 1px dotted; height:auto;} 

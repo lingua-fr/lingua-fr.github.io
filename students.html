@@ -9,18 +9,18 @@
 		<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
 		<script type="text/javascript" src="js/cufon-yui.js"></script>
 		<script type="text/javascript">
-	$(document).ready(function() {
-		Cufon.replace('h1, h2, h3, p.tagline');
-	});
+			$(document).ready(function() {
+			Cufon.replace('h1, h2, h3, p.tagline');
+			});
 		</script>
 		<link rel="stylesheet" type="text/css" href="css/superfish.css" />
 		<script language="javascript" type="text/javascript" src="js/superfish.js"></script>
 		<script type="text/javascript"> 
-    $(document).ready(function() { 
-        $('ul.sf-menu').superfish({ 
-            delay:       300                          // one second delay on mouseout 
-		}); 
-    });  
+			$(document).ready(function() { 
+			$('ul.sf-menu').superfish({ 
+			delay:       300                          // one second delay on mouseout 
+			}); 
+			});  
 		</script>
 	</head>
 	<body id="sub-page">
@@ -32,7 +32,11 @@
 					</div>
 					<ul class="sf-menu">
 						<li><a href="index.html">Главная</a></li>
-						<li><a href="portfolio.html">Портфолио</a></li>
+						<li><a href="portfolio.html">Портфолио</a>
+							<ul>
+								<li><a href="my_public.html">Мои публикации</a></li>
+							</ul>
+						</li>
 						<li><a href="news.html">Новости</a></li>
 						<li><a href="colleagues.html">Коллегам</a></li>
 						<li class="selected"><a href="">Ученикам</a> </li>
@@ -80,6 +84,30 @@
 								<a href="students-phrases.html" class="more">Подробнее</a>
 							</div>
 						</div>
+						<div class="post">
+							<a href="yunesko_fr.html"><img src="images/yunesko_fr/patrimoine-fr-s.png" alt="" class="post-thumb round" /></a>
+							<div class="entry">
+								<h3><a href="yunesko_fr.html">Всемирное наследие ЮНЕСКО во Франции</a></h3>
+								<p>На территории Франции находится 38 объектов из списка Всемирного наследия ЮНЕСКО. Большую часть из них составляют религиозные здания. Также в список попали города с богатой историей (старые города в Париже, Лионе, Страсбурге, папский городок в Авиньоне, порт ля Люн в Бордо и епископский городок в Альби) и природные объекты (залив Порто, лагуны Новой Каледонии, природа острова Ля Реюньон).</p>
+								<a href="yunesko_fr.html" class="more">Читать дальше</a>
+							</div>
+						</div>
+						<div class="post">
+							<a href="parizhskij-disnejlend.html"><img src="images/parizhskij-disnejlend/disney1-s.jpg" alt="" class="post-thumb round" /></a>
+							<div class="entry">
+								<h3><a href="parizhskij-disnejlend.html">Парижский Диснейленд</a></h3>
+								<p>Диснейленд – это комплекс парков развлечений и аттракционов, а также несколько отелей и ресторанов, расположенных на его территории. Находится европейский Диснейленд в нескольких километрах от Парижа в городке Марн-ля-Вале (Marne La Vallée). Диснейленд является самым посещаемым объектом во Франции.</p>
+								<a href="parizhskij-disnejlend.html" class="more">Смотреть фотографии</a>
+							</div>
+						</div>
+						<div class="post">
+							<a href="francophonie.html"><img src="images/francophonie/francophonie-s.jpg" alt="" class="post-thumb round" /></a>
+							<div class="entry">
+								<h3><a href="francophonie.html">Франкофония</a></h3>
+								<p>Термин «франкофония» был придуман французским географом Онезимом Реклю (1837-1916гг) в 1880г. Вначале это понятие обозначало совокупность людей и стран всего мира, использующих французский язык для различных надобностей.</p>
+								<a href="francophonie.html" class="more">Читать дальше</a>
+							</div>
+						</div>
 						<div class="paging">
 						</div>
 					</div>
@@ -90,7 +118,10 @@
 								<ul>
 									<li><a href="students-alphabet.html">Французский алфавит</a></li>
 									<li><a href="students-reading.html">Правила чтения</a></li>
-									<li><a href="students-phrases.html">Фразы для учеников</a></li>
+									<li><a href="students-phrases.html">Фразы для учеников</a></li>									
+									<li><a href="yunesko_fr.html">ЮНЕСКО во Франции</a></li>
+									<li><a href="parizhskij-disnejlend.html">Парижский Диснейленд</a></li>
+									<li><a href="francofonie.html">Франкофония</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -119,26 +150,26 @@
 		</div>
 		<script type="text/javascript"> Cufon.now(); </script>
 		<script type="text/javascript">
-(function (d, w, c) {
-    (w[c] = w[c] || []).push(function() {
-        try {
-            w.yaCounter23649166 = new Ya.Metrika({id:23649166,
-                    webvisor:true,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true});
-        } catch(e) { }
-    });
-    var n = d.getElementsByTagName("script")[0],
-        s = d.createElement("script"),
-        f = function () { n.parentNode.insertBefore(s, n); };
-    s.type = "text/javascript";
-    s.async = true;
-    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
-    if (w.opera == "[object Opera]") {
-        d.addEventListener("DOMContentLoaded", f, false);
-    } else { f(); }
-})(document, window, "yandex_metrika_callbacks");
+			(function (d, w, c) {
+			(w[c] = w[c] || []).push(function() {
+			try {
+			w.yaCounter23649166 = new Ya.Metrika({id:23649166,
+			webvisor:true,
+			clickmap:true,
+			trackLinks:true,
+			accurateTrackBounce:true});
+			} catch(e) { }
+			});
+			var n = d.getElementsByTagName("script")[0],
+			s = d.createElement("script"),
+			f = function () { n.parentNode.insertBefore(s, n); };
+			s.type = "text/javascript";
+			s.async = true;
+			s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+			if (w.opera == "[object Opera]") {
+			d.addEventListener("DOMContentLoaded", f, false);
+			} else { f(); }
+			})(document, window, "yandex_metrika_callbacks");
 		</script>
 		<noscript><div><img src="//mc.yandex.ru/watch/23649166" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 	</body>
