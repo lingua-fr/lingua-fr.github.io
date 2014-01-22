@@ -61,6 +61,12 @@
 		<priority>0.3</priority>
 	</url>
 	<url>
+		<loc>http://lingua-fr.github.io/my_proect.html</loc>
+		<lastmod>2014-01-22</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.7</priority>
+	</url>
+	<url>
 		<loc>http://lingua-fr.github.io/my_public.html</loc>
 		<lastmod>2014-01-21</lastmod>
 		<changefreq>weekly</changefreq>
@@ -101,6 +107,12 @@
 		<lastmod>2014-01-21</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://lingua-fr.github.io/rus-france.html</loc>
+		<lastmod>2014-01-22</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>http://lingua-fr.github.io/students.html</loc>
