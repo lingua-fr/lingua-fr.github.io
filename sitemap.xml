@@ -7,6 +7,18 @@
 		<priority>0.9</priority>
 	</url>
 	<url>
+		<loc>http://lingua-fr.github.io/comp-prav.html</loc>
+		<lastmod>2014-01-23</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://lingua-fr.github.io/comp-prav2.html</loc>
+		<lastmod>2014-01-23</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
 		<loc>http://lingua-fr.github.io/colleagues.html</loc>
 		<lastmod>2014-01-21</lastmod>
 		<changefreq>weekly</changefreq>
@@ -17,6 +29,18 @@
 		<lastmod>2014-01-21</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://lingua-fr.github.io/exercises-eyes.html</loc>
+		<lastmod>2014-01-23</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://lingua-fr.github.io/exercises-muscle.html</loc>
+		<lastmod>2014-01-23</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://lingua-fr.github.io/france-mod.html</loc>
